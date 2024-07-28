@@ -1,3 +1,4 @@
+
 # No Code Deep Learning Visual Editor
 
 Creating deep learning architectures can be challenging, and writing boilerplate code from scratch adds to the difficulty. That's why we've developed a no-code deep learning tool that allows you to design deep learning architectures, set custom hyperparameters, and download the corresponding PyTorch file at the end.
@@ -62,4 +63,14 @@ Clone the Repo
 cd NoCodeDeepLearning
 npm i
 npm run dev
+```
+
+### Backend
+
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+flask run
+
 ```
